@@ -31,7 +31,7 @@ open class SCKAudioRecorderManager: SCKAudioSessionManager {
     private var recorder: AVAudioRecorder?
     
     /// The file name for the audio recording.
-    private let recordingFileName = "recording.aac"
+    private let recordingFileName = "recording.m4a"
     
     /// The current time publisher subject for recording.
     private let recordingCurrentTimeSubject = PassthroughSubject<String, Never>()
